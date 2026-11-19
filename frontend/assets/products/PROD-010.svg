@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1000 650" role="img" aria-label="Sony WH-1000XM5 Wireless Headphones studio product illustration">
+  <defs>
+    <linearGradient id="studio" x1="0" y1="0" x2="0.92" y2="1"><stop stop-color="#F5F2EB"/><stop offset="1" stop-color="#EAE5DC"/></linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FBFAF7"/><stop offset=".42" stop-color="#E4E1DA"/><stop offset="1" stop-color="#C9C6BE"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1E4D3B"/><stop offset="1" stop-color="#C85A32"/></linearGradient>
+    <radialGradient id="studioLight"><stop stop-color="#FFF" stop-opacity=".86"/><stop offset="1" stop-color="#FFF" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-30%" y="-50%" width="160%" height="200%"><feGaussianBlur stdDeviation="13"/></filter>
+  </defs>
+  <rect width="1000" height="650" rx="28" fill="url(#studio)"/>
+  <ellipse cx="500" cy="295" rx="435" ry="283" fill="url(#studioLight)"/>
+  <path d="M44 76h912" stroke="#D7D2C8" stroke-width="1"/>
+  <text x="53" y="55" fill="#6B665E" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="3">DEVGEAR STUDIO</text>
+  <text x="946" y="55" text-anchor="end" fill="#817C73" font-family="Inter,Arial,sans-serif" font-size="13" letter-spacing="2">PROD-010 · AUDIO &amp; WEBCAMS</text>
+  <g><ellipse cx="500" cy="457" rx="262" ry="23" fill="#A29B8C" opacity=".2" filter="url(#shadow)"/><path d="M281 309v-99q0-178 219-178t219 178v99" fill="none" stroke="url(#accent)" stroke-width="34" stroke-linecap="round"/><path d="M302 213q16-151 198-151t198 151" fill="none" stroke="#FFF" stroke-width="7" opacity=".8"/><rect x="223" y="235" width="127" height="190" rx="48" fill="url(#metal)" stroke="#99968D" stroke-width="3"/><rect x="650" y="235" width="127" height="190" rx="48" fill="url(#metal)" stroke="#99968D" stroke-width="3"/><rect x="244" y="257" width="85" height="146" rx="35" fill="#E7E4DD" stroke="#1E4D3B" stroke-opacity=".7" stroke-width="3"/><rect x="671" y="257" width="85" height="146" rx="35" fill="#E7E4DD" stroke="#1E4D3B" stroke-opacity=".7" stroke-width="3"/><path d="M263 285h47m-47 15h47m-47 15h47m381-30h47m-47 15h47m-47 15h47" stroke="#B3AFA5" stroke-width="3" stroke-linecap="round"/></g>
+  <path d="M45 540h910" stroke="#D7D2C8" stroke-width="1"/>
+  <text x="53" y="584" fill="#1C1B18" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="650" textLength="890" lengthAdjust="spacingAndGlyphs">Sony WH-1000XM5 Wireless Headphones</text>
+  <text x="53" y="615" fill="#777168" font-family="Inter,Arial,sans-serif" font-size="12" letter-spacing="2">DESIGNED FOR THE WAY YOU WORK</text>
+  <circle cx="946" cy="606" r="7" fill="#1E4D3B"/>
+</svg>

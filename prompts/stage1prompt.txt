@@ -1,0 +1,32 @@
+Build Stage 1 of a Forward-Deployed Engineer (FDE) AI project named `eval_harness`: a fast, lightweight E-Commerce Storefront with structured product and policy data, designed to connect to a FastAPI RAG backend and a Google Colab LLM endpoint in the next stages.
+
+Create the following files in the workspace root (`eval_harness/`):
+
+1. `data/catalog.json`:
+   - Create 12 realistic tech & developer hardware products (e.g., mechanical keyboards, USB-C hubs, NVMe enclosures, ergonomic mice, portable monitors, GaN chargers, noise-canceling headphones, webcams).
+   - Each product object must have: `id` (e.g., "PROD-001"), `name`, `category`, `price_usd` (float), `stock_count` (integer — include 2 items with `0` stock to test out-of-stock queries later), `warranty_months` (int), `specs` (dict of 3–4 technical specs), and `description` (2 clear sentences).
+
+2. `data/policies.md`:
+   - Write crisp, structured store policies covering:
+     - Shipping & Delivery (free shipping threshold over $75, standard vs. express timelines, international restrictions)
+     - Returns & Refunds (30-day return window, 15% restocking fee on opened audio gear, non-returnable clearance items)
+     - Warranty & Support (standard 12-month hardware warranty, accidental damage exclusions, RMA process)
+     - Promo Codes & Discounts (include 1 active code `FDE15` for 15% off orders over $100, and explicitly note expired codes are rejected).
+
+3. `frontend/app.py` (Streamlit E-Commerce Storefront + Chat UI Shell):
+   - Build a clean, dark-mode-friendly Streamlit app (`st.set_page_config(page_title="DevGear Store | AI Assistant", layout="wide")`).
+   - Left/Main Area (70% width):
+     - Header with store branding, category filter dropdown, search bar, and a live shopping cart counter in `st.session_state`.
+     - Responsive 3-column product grid displaying each item from `data/catalog.json` with price, stock badge ("In Stock" vs "Out of Stock"), key specs expander, and an "Add to Cart" button (disabled if `stock_count == 0`).
+   - Right Sidebar or Docked Panel (30% width):
+     - A fast, lightweight AI Store Assistant chat panel using `st.chat_message` and `st.chat_input`.
+     - Wire it to send an HTTP POST request to `http://localhost:8000/chat` (`{"message": prompt}`) with a 15-second timeout.
+     - If the FastAPI backend isn't running yet, gracefully display a helpful status message ("Backend offline — start FastAPI on port 8000 to enable live RAG replies") without crashing the storefront.
+     - Display response latency in milliseconds (`⏱️ 420ms`) and any retrieved source citations returned by the API.
+
+4. `requirements.txt` & `.env.example` & `.gitignore`:
+   - `requirements.txt`: include `streamlit`, `requests`, `fastapi`, `uvicorn`, `pydantic`, `openai`, `chromadb`, `python-dotenv`.
+   - `.env.example`: include `LLM_BASE_URL=https://atop-remarry-richly.ngrok-free.dev/v1`, `LLM_API_KEY=dummy-token`, `LLM_MODEL=Qwen/Qwen2.5-1.5B-Instruct`, and `BACKEND_URL=http://localhost:8000`.
+   - `.gitignore`: ignore `.env`, `__pycache__/`, `.venv/`, `chroma_db/`, and `*.pyc`.
+
+Keep the code modular, clean, and well-commented with zero placeholder TODOs so I can immediately run `streamlit run frontend/app.py` to test the storefront.

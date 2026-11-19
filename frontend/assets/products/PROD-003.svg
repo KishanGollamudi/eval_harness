@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1000 650" role="img" aria-label="Anker 555 USB-C Hub (8-in-1) studio product illustration">
+  <defs>
+    <linearGradient id="studio" x1="0" y1="0" x2="0.92" y2="1"><stop stop-color="#F5F2EB"/><stop offset="1" stop-color="#EAE5DC"/></linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FBFAF7"/><stop offset=".42" stop-color="#E4E1DA"/><stop offset="1" stop-color="#C9C6BE"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C85A32"/><stop offset="1" stop-color="#1E4D3B"/></linearGradient>
+    <radialGradient id="studioLight"><stop stop-color="#FFF" stop-opacity=".86"/><stop offset="1" stop-color="#FFF" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-30%" y="-50%" width="160%" height="200%"><feGaussianBlur stdDeviation="13"/></filter>
+  </defs>
+  <rect width="1000" height="650" rx="28" fill="url(#studio)"/>
+  <ellipse cx="500" cy="295" rx="435" ry="283" fill="url(#studioLight)"/>
+  <path d="M44 76h912" stroke="#D7D2C8" stroke-width="1"/>
+  <text x="53" y="55" fill="#6B665E" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="3">DEVGEAR STUDIO</text>
+  <text x="946" y="55" text-anchor="end" fill="#817C73" font-family="Inter,Arial,sans-serif" font-size="13" letter-spacing="2">PROD-003 · HUBS &amp; DOCKS</text>
+  <g><ellipse cx="500" cy="432" rx="320" ry="30" fill="#A29B8C" opacity=".18" filter="url(#shadow)"/><rect x="230.0" y="244" width="540" height="146" rx="32" fill="url(#metal)" stroke="#A7A39A" stroke-width="3"/><path d="M255.0 264h490" stroke="#FFF" stroke-width="4" opacity=".8"/><rect x="278.0" y="331" width="35" height="16" rx="5" fill="#D3D0C8" stroke="#88867E" stroke-width="2"/><rect x="341.0" y="331" width="35" height="16" rx="5" fill="#D3D0C8" stroke="#88867E" stroke-width="2"/><rect x="404.0" y="331" width="35" height="16" rx="5" fill="#D3D0C8" stroke="#88867E" stroke-width="2"/><rect x="467.0" y="331" width="35" height="16" rx="5" fill="#D3D0C8" stroke="#88867E" stroke-width="2"/><rect x="530.0" y="331" width="35" height="16" rx="5" fill="#D3D0C8" stroke="#88867E" stroke-width="2"/><rect x="593.0" y="331" width="35" height="16" rx="5" fill="#D3D0C8" stroke="#88867E" stroke-width="2"/><rect x="670.0" y="331" width="45" height="16" rx="7" fill="#D3D0C8" stroke="#88867E" stroke-width="2"/><circle cx="725.0" cy="316" r="8" fill="#C85A32"/><path d="M472.0 390v35" stroke="#A9A59C" stroke-width="12" stroke-linecap="round"/></g>
+  <path d="M45 540h910" stroke="#D7D2C8" stroke-width="1"/>
+  <text x="53" y="584" fill="#1C1B18" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="650" textLength="890" lengthAdjust="spacingAndGlyphs">Anker 555 USB-C Hub (8-in-1)</text>
+  <text x="53" y="615" fill="#777168" font-family="Inter,Arial,sans-serif" font-size="12" letter-spacing="2">DESIGNED FOR THE WAY YOU WORK</text>
+  <circle cx="946" cy="606" r="7" fill="#C85A32"/>
+</svg>

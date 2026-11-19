@@ -1,0 +1,67 @@
+x-app-image: &app-image
+  image: devgear-eval-harness:local
+  build:
+    context: .
+    dockerfile: Dockerfile
+    args:
+      APP_UID: ${APP_UID:-1000}
+      APP_GID: ${APP_GID:-1000}
+
+x-llm-environment: &llm-environment
+  LLM_BASE_URL: ${LLM_BASE_URL:-https://atop-remarry-richly.ngrok-free.dev/v1}
+  LLM_API_KEY: ${LLM_API_KEY:-dummy-token}
+  LLM_MODEL: ${LLM_MODEL:-Qwen/Qwen2.5-1.5B-Instruct}
+
+x-llm-env-file: &llm-env-file
+  - path: .env
+    required: false
+
+services:
+  backend:
+    <<: *app-image
+    command: ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "8000"]
+    env_file: *llm-env-file
+    environment: *llm-environment
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./chroma_db:/app/chroma_db
+    healthcheck:
+      test:
+        - CMD
+        - python3
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=2).read()"
+      interval: 15s
+      timeout: 3s
+      retries: 10
+      start_period: 60s
+
+  frontend:
+    <<: *app-image
+    command: ["python3", "frontend/serve.py", "--host", "0.0.0.0", "--port", "8501"]
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports:
+      - "8501:8501"
+
+  eval:
+    <<: *app-image
+    profiles: ["eval"]
+    command:
+      - python3
+      - eval/eval_harness.py
+      - --backend-url
+      - http://backend:8000
+      - --concurrency
+      - "1"
+      - --judge-mode
+      - hybrid
+    depends_on:
+      backend:
+        condition: service_healthy
+    env_file: *llm-env-file
+    environment: *llm-environment
+    volumes:
+      - ./:/app

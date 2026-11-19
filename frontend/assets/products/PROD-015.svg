@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1000 650" role="img" aria-label="Crucial X10 Pro 2TB Portable SSD studio product illustration">
+  <defs>
+    <linearGradient id="studio" x1="0" y1="0" x2="0.92" y2="1"><stop stop-color="#F5F2EB"/><stop offset="1" stop-color="#EAE5DC"/></linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FBFAF7"/><stop offset=".42" stop-color="#E4E1DA"/><stop offset="1" stop-color="#C9C6BE"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C85A32"/><stop offset="1" stop-color="#1E4D3B"/></linearGradient>
+    <radialGradient id="studioLight"><stop stop-color="#FFF" stop-opacity=".86"/><stop offset="1" stop-color="#FFF" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-30%" y="-50%" width="160%" height="200%"><feGaussianBlur stdDeviation="13"/></filter>
+  </defs>
+  <rect width="1000" height="650" rx="28" fill="url(#studio)"/>
+  <ellipse cx="500" cy="295" rx="435" ry="283" fill="url(#studioLight)"/>
+  <path d="M44 76h912" stroke="#D7D2C8" stroke-width="1"/>
+  <text x="53" y="55" fill="#6B665E" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="3">DEVGEAR STUDIO</text>
+  <text x="946" y="55" text-anchor="end" fill="#817C73" font-family="Inter,Arial,sans-serif" font-size="13" letter-spacing="2">PROD-015 · STORAGE</text>
+  <g transform="rotate(-7 500 315)"><ellipse cx="500" cy="444" rx="260" ry="24" fill="#A29B8C" opacity=".2" filter="url(#shadow)"/><rect x="244" y="193" width="512" height="244" rx="68" fill="url(#metal)" stroke="#9E9B91" stroke-width="3"/><rect x="275" y="220" width="450" height="190" rx="53" fill="#F8F7F3" stroke="#D1CDC3" stroke-width="2"/><path d="M305 249h395" stroke="#FFF" stroke-width="5"/><rect x="619" y="291" width="61" height="35" rx="15" fill="#E1DED6" stroke="#AAA69D" stroke-width="2"/><circle cx="344" cy="317" r="8" fill="#C85A32"/><text x="500" y="359" text-anchor="middle" fill="#737067" font-size="18" letter-spacing="4">X10 PRO</text></g>
+  <path d="M45 540h910" stroke="#D7D2C8" stroke-width="1"/>
+  <text x="53" y="584" fill="#1C1B18" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="650" textLength="890" lengthAdjust="spacingAndGlyphs">Crucial X10 Pro 2TB Portable SSD</text>
+  <text x="53" y="615" fill="#777168" font-family="Inter,Arial,sans-serif" font-size="12" letter-spacing="2">DESIGNED FOR THE WAY YOU WORK</text>
+  <circle cx="946" cy="606" r="7" fill="#C85A32"/>
+</svg>

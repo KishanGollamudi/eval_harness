@@ -1,0 +1,17 @@
+Upgrade the Stage 1 e-commerce storefront (`frontend/app.py` and `data/catalog.json`) so it looks and feels like a polished, modern hardware e-commerce store with crisp product visuals on every card and an interactive shopping cart drawer.
+
+Inspect `data/catalog.json` and `frontend/app.py` first, then implement the following:
+
+1. Local High-Resolution Product Images (`frontend/assets/products/`):
+   - Do NOT use external Unsplash/web URLs that can break or rate-limit.
+   - Write a small helper script or run a one-time setup step that generates 12 custom, sleek dark-mode-styled SVG product illustrations (saved as `frontend/assets/products/{product_id}.svg`, e.g. `PROD-001.svg` through `PROD-012.svg`) tailored to each product's category and exact model name (mechanical keyboard layouts, USB-C/Thunderbolt docks, NVMe SSD enclosures, ergonomic mice, portable monitors, GaN chargers, headphones, 4K webcams) with subtle gradients, hardware vector details, and model badges.
+   - Add an `"image_path": "frontend/assets/products/PROD-001.svg"` field to each product object in `data/catalog.json` (preserving all existing fields and validation constraints).
+
+2. Upgraded E-Commerce Storefront UI (`frontend/app.py`):
+   - **Storefront Hero & Promo Banner:** Add a sleek top promotional banner highlighting free shipping on orders over $75 and active promo code `FDE15` (15% off orders over $100).
+   - **Visual Product Cards:** Render each product's local image (`st.image(product["image_path"], use_container_width=True)`) at the top of every product card above the category/stock badge, title, bold price tag, description, collapsible `Key specs` drawer, and full-width `Add to Cart` button.
+   - **Interactive Cart Popover / Expander:** Make the top `Cart` metric clickable/expandable (`st.popover` or `st.expander`) so users can view added items, item quantities, subtotal, automatic promo discount calculation (`FDE15` when subtotal > $100), free shipping indicator, and a `Clear Cart` button.
+   - **Preserve AI Store Assistant Panel:** Keep the right-hand AI Store Assistant chat panel completely intact and ready for Stage 2 (`POST /chat` on `BACKEND_URL`).
+
+3. Validation:
+   - Verify all 12 `image_path` files exist on disk, `data/catalog.json` still passes all schema checks, and `AppTest` renders all 12 product images and cards without errors.

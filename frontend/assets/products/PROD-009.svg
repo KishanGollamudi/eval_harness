@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1000 650" role="img" aria-label="BenQ ScreenBar Halo 2 Monitor Light studio product illustration">
+  <defs>
+    <linearGradient id="studio" x1="0" y1="0" x2="0.92" y2="1"><stop stop-color="#F5F2EB"/><stop offset="1" stop-color="#EAE5DC"/></linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FBFAF7"/><stop offset=".42" stop-color="#E4E1DA"/><stop offset="1" stop-color="#C9C6BE"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C85A32"/><stop offset="1" stop-color="#1E4D3B"/></linearGradient>
+    <radialGradient id="studioLight"><stop stop-color="#FFF" stop-opacity=".86"/><stop offset="1" stop-color="#FFF" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-30%" y="-50%" width="160%" height="200%"><feGaussianBlur stdDeviation="13"/></filter>
+  </defs>
+  <rect width="1000" height="650" rx="28" fill="url(#studio)"/>
+  <ellipse cx="500" cy="295" rx="435" ry="283" fill="url(#studioLight)"/>
+  <path d="M44 76h912" stroke="#D7D2C8" stroke-width="1"/>
+  <text x="53" y="55" fill="#6B665E" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="3">DEVGEAR STUDIO</text>
+  <text x="946" y="55" text-anchor="end" fill="#817C73" font-family="Inter,Arial,sans-serif" font-size="13" letter-spacing="2">PROD-009 · MONITORS &amp; LIGHTING</text>
+  <g><ellipse cx="500" cy="423" rx="340" ry="24" fill="#A29B8C" opacity=".2" filter="url(#shadow)"/><path d="M196 247h608q14 0 14 14v42H182v-42q0-14 14-14z" fill="url(#metal)" stroke="#9F9B92" stroke-width="3"/><rect x="204" y="262" width="590" height="10" rx="5" fill="#FFF"/><path d="M220 303q280 150 560 0" fill="none" stroke="#D8D4CB" stroke-width="18" stroke-linecap="round"/><path d="M255 285h490" stroke="#C85A32" stroke-width="3" opacity=".75"/><circle cx="500" cy="350" r="27" fill="#F7F5F0" stroke="#AAA69D" stroke-width="3"/><path d="M488 350h24m-12-12v24" stroke="#C85A32" stroke-width="3" stroke-linecap="round"/></g>
+  <path d="M45 540h910" stroke="#D7D2C8" stroke-width="1"/>
+  <text x="53" y="584" fill="#1C1B18" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="650" textLength="890" lengthAdjust="spacingAndGlyphs">BenQ ScreenBar Halo 2 Monitor Light</text>
+  <text x="53" y="615" fill="#777168" font-family="Inter,Arial,sans-serif" font-size="12" letter-spacing="2">DESIGNED FOR THE WAY YOU WORK</text>
+  <circle cx="946" cy="606" r="7" fill="#C85A32"/>
+</svg>

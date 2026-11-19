@@ -1,0 +1,13 @@
+.git/
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+.venv/
+.env
+*.pyc
+*.pyo
+*.log
+*.tmp
+tmp/
+temp/
+chroma_db/

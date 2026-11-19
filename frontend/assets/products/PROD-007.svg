@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1000 650" role="img" aria-label="Logitech MX Master 3S Wireless Mouse studio product illustration">
+  <defs>
+    <linearGradient id="studio" x1="0" y1="0" x2="0.92" y2="1"><stop stop-color="#F5F2EB"/><stop offset="1" stop-color="#EAE5DC"/></linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FBFAF7"/><stop offset=".42" stop-color="#E4E1DA"/><stop offset="1" stop-color="#C9C6BE"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C85A32"/><stop offset="1" stop-color="#1E4D3B"/></linearGradient>
+    <radialGradient id="studioLight"><stop stop-color="#FFF" stop-opacity=".86"/><stop offset="1" stop-color="#FFF" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-30%" y="-50%" width="160%" height="200%"><feGaussianBlur stdDeviation="13"/></filter>
+  </defs>
+  <rect width="1000" height="650" rx="28" fill="url(#studio)"/>
+  <ellipse cx="500" cy="295" rx="435" ry="283" fill="url(#studioLight)"/>
+  <path d="M44 76h912" stroke="#D7D2C8" stroke-width="1"/>
+  <text x="53" y="55" fill="#6B665E" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="3">DEVGEAR STUDIO</text>
+  <text x="946" y="55" text-anchor="end" fill="#817C73" font-family="Inter,Arial,sans-serif" font-size="13" letter-spacing="2">PROD-007 · MICE &amp; ERGONOMICS</text>
+  <g><ellipse cx="500" cy="438" rx="210" ry="24" fill="#A29B8C" opacity=".2" filter="url(#shadow)"/><path d="M500 144c-105 0-165 72-165 174v72q0 64 77 64h176q77 0 77-64v-72c0-102-60-174-165-174z" fill="url(#metal)" stroke="#A5A198" stroke-width="3"/><path d="M500 150v126m-160 14q70-29 160-29t160 29" fill="none" stroke="#C1BDB4" stroke-width="3"/><rect x="484" y="170" width="32" height="74" rx="16" fill="#F8F7F3" stroke="#B5B1A8" stroke-width="2"/><path d="M500 185v29" stroke="#C85A32" stroke-width="5" stroke-linecap="round"/><path d="M365 341q135 40 270 0" fill="none" stroke="#C85A32" stroke-opacity=".55" stroke-width="3"/></g>
+  <path d="M45 540h910" stroke="#D7D2C8" stroke-width="1"/>
+  <text x="53" y="584" fill="#1C1B18" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="650" textLength="890" lengthAdjust="spacingAndGlyphs">Logitech MX Master 3S Wireless Mouse</text>
+  <text x="53" y="615" fill="#777168" font-family="Inter,Arial,sans-serif" font-size="12" letter-spacing="2">DESIGNED FOR THE WAY YOU WORK</text>
+  <circle cx="946" cy="606" r="7" fill="#C85A32"/>
+</svg>

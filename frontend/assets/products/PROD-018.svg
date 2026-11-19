@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1000 650" role="img" aria-label="Dell UltraSharp U2724DE 27-inch Monitor studio product illustration">
+  <defs>
+    <linearGradient id="studio" x1="0" y1="0" x2="0.92" y2="1"><stop stop-color="#F5F2EB"/><stop offset="1" stop-color="#EAE5DC"/></linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FBFAF7"/><stop offset=".42" stop-color="#E4E1DA"/><stop offset="1" stop-color="#C9C6BE"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1E4D3B"/><stop offset="1" stop-color="#C85A32"/></linearGradient>
+    <radialGradient id="studioLight"><stop stop-color="#FFF" stop-opacity=".86"/><stop offset="1" stop-color="#FFF" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-30%" y="-50%" width="160%" height="200%"><feGaussianBlur stdDeviation="13"/></filter>
+  </defs>
+  <rect width="1000" height="650" rx="28" fill="url(#studio)"/>
+  <ellipse cx="500" cy="295" rx="435" ry="283" fill="url(#studioLight)"/>
+  <path d="M44 76h912" stroke="#D7D2C8" stroke-width="1"/>
+  <text x="53" y="55" fill="#6B665E" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="3">DEVGEAR STUDIO</text>
+  <text x="946" y="55" text-anchor="end" fill="#817C73" font-family="Inter,Arial,sans-serif" font-size="13" letter-spacing="2">PROD-018 · MONITORS &amp; LIGHTING</text>
+  <g><ellipse cx="500" cy="467" rx="296" ry="23" fill="#A29B8C" opacity=".18" filter="url(#shadow)"/><rect x="182" y="93" width="636" height="352" rx="24" fill="url(#metal)" stroke="#9C9990" stroke-width="3"/><rect x="201" y="112" width="598" height="314" rx="13" fill="#F8F7F3" stroke="#D0CCC2" stroke-width="2"/><path d="M228 147h545" stroke="#FFF" stroke-width="7"/><path d="M462 445v68h76v-68" fill="url(#metal)" stroke="#AAA69F" stroke-width="2"/><path d="M391 513h218" stroke="#9F9B92" stroke-width="16" stroke-linecap="round"/><circle cx="500" cy="420" r="4" fill="#1E4D3B"/></g>
+  <path d="M45 540h910" stroke="#D7D2C8" stroke-width="1"/>
+  <text x="53" y="584" fill="#1C1B18" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="650" textLength="890" lengthAdjust="spacingAndGlyphs">Dell UltraSharp U2724DE 27-inch Monitor</text>
+  <text x="53" y="615" fill="#777168" font-family="Inter,Arial,sans-serif" font-size="12" letter-spacing="2">DESIGNED FOR THE WAY YOU WORK</text>
+  <circle cx="946" cy="606" r="7" fill="#1E4D3B"/>
+</svg>

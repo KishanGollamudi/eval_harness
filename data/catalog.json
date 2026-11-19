@@ -1,0 +1,290 @@
+[
+  {
+    "id": "PROD-001",
+    "image_path": "frontend/assets/products/PROD-001.svg",
+    "name": "Keychron V1 Max Mechanical Keyboard",
+    "category": "Keyboards",
+    "price_usd": 99.0,
+    "stock_count": 18,
+    "warranty_months": 12,
+    "specs": {
+      "Layout": "75%, 81 keys",
+      "Switches": "Hot-swappable mechanical",
+      "Connectivity": "2.4 GHz, Bluetooth 5.1, USB-C",
+      "Battery": "4000 mAh"
+    },
+    "description": "A customizable compact keyboard with a gasket-mounted design for a comfortable, quiet typing feel. Connect to multiple devices wirelessly or use USB-C for a dependable wired setup."
+  },
+  {
+    "id": "PROD-002",
+    "image_path": "frontend/assets/products/PROD-002.svg",
+    "name": "Logitech MX Mechanical Mini",
+    "category": "Keyboards",
+    "price_usd": 149.99,
+    "stock_count": 11,
+    "warranty_months": 12,
+    "specs": {
+      "Layout": "Compact, low-profile",
+      "Switches": "Tactile Quiet mechanical",
+      "Connectivity": "Bluetooth Low Energy, Logi Bolt",
+      "Battery": "Up to 10 months"
+    },
+    "description": "This low-profile wireless keyboard brings a precise mechanical typing experience to a compact desk setup. Smart illumination and multi-device pairing make it easy to work across computers."
+  },
+  {
+    "id": "PROD-003",
+    "image_path": "frontend/assets/products/PROD-003.svg",
+    "name": "Anker 555 USB-C Hub (8-in-1)",
+    "category": "Hubs & Docks",
+    "price_usd": 59.99,
+    "stock_count": 24,
+    "warranty_months": 18,
+    "specs": {
+      "Ports": "2 USB-A, USB-C data, HDMI, Ethernet, SD, microSD",
+      "Video": "HDMI up to 4K at 60 Hz",
+      "Power Delivery": "Up to 85 W pass-through",
+      "Cable": "Integrated USB-C"
+    },
+    "description": "Expand a USB-C laptop with display, networking, card-reader, and USB connections in one travel-ready hub. Its pass-through charging port keeps your workstation powered while the hub is in use."
+  },
+  {
+    "id": "PROD-004",
+    "image_path": "frontend/assets/products/PROD-004.svg",
+    "name": "CalDigit TS4 Thunderbolt Station",
+    "category": "Hubs & Docks",
+    "price_usd": 379.99,
+    "stock_count": 5,
+    "warranty_months": 24,
+    "specs": {
+      "Ports": "18 total, including 3 Thunderbolt 4",
+      "Host Interface": "Thunderbolt 4",
+      "Power Delivery": "Up to 98 W",
+      "Networking": "2.5 Gigabit Ethernet"
+    },
+    "description": "Build a powerful single-cable workstation with high-speed storage, display, and peripheral connections. The dock supports up to 98 W of host charging and includes a broad range of front and rear ports."
+  },
+  {
+    "id": "PROD-005",
+    "image_path": "frontend/assets/products/PROD-005.svg",
+    "name": "Satechi USB4 NVMe SSD Enclosure",
+    "category": "Storage",
+    "price_usd": 79.99,
+    "stock_count": 0,
+    "warranty_months": 12,
+    "specs": {
+      "Drive Support": "M.2 NVMe 2230/2242/2260/2280",
+      "Interface": "USB4, USB-C",
+      "Transfer Rate": "Up to 40 Gbps",
+      "Material": "Aluminum"
+    },
+    "description": "Turn a compatible M.2 NVMe drive into a fast portable SSD for project files and backups. Its aluminum enclosure helps dissipate heat during sustained transfers."
+  },
+  {
+    "id": "PROD-006",
+    "image_path": "frontend/assets/products/PROD-006.svg",
+    "name": "Samsung 990 PRO 2TB NVMe SSD",
+    "category": "Storage",
+    "price_usd": 169.99,
+    "stock_count": 14,
+    "warranty_months": 60,
+    "specs": {
+      "Capacity": "2 TB",
+      "Interface": "PCIe 4.0 x4, NVMe 2.0",
+      "Sequential Read": "Up to 7,450 MB/s",
+      "Form Factor": "M.2 2280"
+    },
+    "description": "Speed up builds, large file transfers, and game loads with a high-performance PCIe 4.0 drive. The 2 TB capacity provides room for active projects and frequently used applications."
+  },
+  {
+    "id": "PROD-007",
+    "image_path": "frontend/assets/products/PROD-007.svg",
+    "name": "Logitech MX Master 3S Wireless Mouse",
+    "category": "Mice & Ergonomics",
+    "price_usd": 99.99,
+    "stock_count": 20,
+    "warranty_months": 12,
+    "specs": {
+      "Sensor": "8,000 DPI Darkfield",
+      "Buttons": "7 programmable buttons",
+      "Connectivity": "Bluetooth, Logi Bolt",
+      "Battery": "Up to 70 days"
+    },
+    "description": "Work comfortably through long coding sessions with an ergonomic shape and a precision thumb wheel. The quiet clicks and high-resolution sensor work well across a variety of surfaces."
+  },
+  {
+    "id": "PROD-008",
+    "image_path": "frontend/assets/products/PROD-008.svg",
+    "name": "ASUS ZenScreen MB16ACV Portable Monitor",
+    "category": "Monitors & Lighting",
+    "price_usd": 229.99,
+    "stock_count": 0,
+    "warranty_months": 36,
+    "specs": {
+      "Display": "15.6-inch IPS, 1920 × 1080",
+      "Refresh Rate": "60 Hz",
+      "Connectivity": "USB-C with DisplayPort Alt Mode",
+      "Weight": "0.83 kg"
+    },
+    "description": "Add a lightweight second screen to a laptop setup at home, in the office, or on the road. A single USB-C connection carries the display signal and power on compatible devices."
+  },
+  {
+    "id": "PROD-009",
+    "image_path": "frontend/assets/products/PROD-009.svg",
+    "name": "BenQ ScreenBar Halo 2 Monitor Light",
+    "category": "Monitors & Lighting",
+    "price_usd": 179.99,
+    "stock_count": 16,
+    "warranty_months": 24,
+    "specs": {
+      "Lighting": "Front task light and rear bias light",
+      "Color Temperature": "2700–6500 K",
+      "Control": "Wireless dimming dial",
+      "Mount": "Space-saving monitor clip"
+    },
+    "description": "Balance focused desk lighting with a soft ambient glow behind your display. The wireless dial makes brightness and color temperature easy to adjust."
+  },
+  {
+    "id": "PROD-010",
+    "image_path": "frontend/assets/products/PROD-010.svg",
+    "name": "Sony WH-1000XM5 Wireless Headphones",
+    "category": "Audio & Webcams",
+    "price_usd": 349.99,
+    "stock_count": 7,
+    "warranty_months": 12,
+    "specs": {
+      "Noise Control": "Adaptive active noise canceling",
+      "Connectivity": "Bluetooth 5.2, 3.5 mm audio",
+      "Battery": "Up to 30 hours with ANC",
+      "Microphones": "8 microphones"
+    },
+    "description": "Focus in busy workspaces with adaptive noise canceling and comfortable over-ear cushions. Multipoint Bluetooth and clear voice pickup make switching between calls and devices straightforward."
+  },
+  {
+    "id": "PROD-011",
+    "image_path": "frontend/assets/products/PROD-011.svg",
+    "name": "Elgato Facecam MK.2",
+    "category": "Audio & Webcams",
+    "price_usd": 149.99,
+    "stock_count": 9,
+    "warranty_months": 24,
+    "specs": {
+      "Resolution": "1080p at up to 60 fps",
+      "Sensor": "Sony STARVIS CMOS",
+      "Lens": "Fixed focus, 24 mm equivalent",
+      "Connection": "USB-C 3.0"
+    },
+    "description": "Bring a sharp, natural-looking image to video calls, streaming, and remote presentations. Camera Hub software provides manual controls for exposure, white balance, and field of view."
+  },
+  {
+    "id": "PROD-012",
+    "image_path": "frontend/assets/products/PROD-012.svg",
+    "name": "Jabra Evolve2 65 Flex",
+    "category": "Audio & Webcams",
+    "price_usd": 219.99,
+    "stock_count": 12,
+    "warranty_months": 24,
+    "specs": {
+      "Noise Control": "Hybrid active noise canceling",
+      "Microphone": "Foldable boom, 6-mic array",
+      "Connectivity": "Bluetooth, USB-A Bluetooth adapter",
+      "Battery": "Up to 32 hours"
+    },
+    "description": "A foldable wireless headset designed for clear meetings and focused work in changing environments. The retractable boom microphone and included charging pad support a tidy everyday setup."
+  },
+  {
+    "id": "PROD-013",
+    "image_path": "frontend/assets/products/PROD-013.svg",
+    "name": "Keychron Q1 HE Wireless Custom Keyboard",
+    "category": "Keyboards",
+    "price_usd": 219.0,
+    "stock_count": 8,
+    "warranty_months": 12,
+    "specs": {
+      "Layout": "75%, 82 keys",
+      "Switches": "Hall Effect magnetic",
+      "Connectivity": "2.4 GHz, Bluetooth, USB-C",
+      "Case": "CNC aluminum"
+    },
+    "description": "A premium aluminum keyboard with adjustable magnetic switches for a highly personalized typing feel. Set actuation points and rapid trigger behavior to match your workflow."
+  },
+  {
+    "id": "PROD-014",
+    "image_path": "frontend/assets/products/PROD-014.svg",
+    "name": "OWC Thunderbolt Go Dock",
+    "category": "Hubs & Docks",
+    "price_usd": 299.99,
+    "stock_count": 6,
+    "warranty_months": 24,
+    "specs": {
+      "Host Interface": "Thunderbolt 4",
+      "Ports": "11, including HDMI and Ethernet",
+      "Power Delivery": "Up to 90 W",
+      "Power Supply": "Integrated"
+    },
+    "description": "Connect displays, storage, and accessories through one compact Thunderbolt dock with its power supply built in. It delivers up to 90 W to a compatible host laptop."
+  },
+  {
+    "id": "PROD-015",
+    "image_path": "frontend/assets/products/PROD-015.svg",
+    "name": "Crucial X10 Pro 2TB Portable SSD",
+    "category": "Storage",
+    "price_usd": 159.99,
+    "stock_count": 13,
+    "warranty_months": 60,
+    "specs": {
+      "Capacity": "2 TB",
+      "Interface": "USB-C, USB 3.2 Gen 2x2",
+      "Sequential Read": "Up to 2,100 MB/s",
+      "Durability": "IP55 water and dust resistance"
+    },
+    "description": "Carry project files in a compact solid-state drive built for quick transfers on the go. Its rugged enclosure is designed to handle dust, splashes, and everyday travel."
+  },
+  {
+    "id": "PROD-016",
+    "image_path": "frontend/assets/products/PROD-016.svg",
+    "name": "Logitech Lift Vertical Ergonomic Mouse",
+    "category": "Mice & Ergonomics",
+    "price_usd": 69.99,
+    "stock_count": 17,
+    "warranty_months": 12,
+    "specs": {
+      "Shape": "57° vertical ergonomic",
+      "Sensor": "4,000 DPI optical",
+      "Connectivity": "Bluetooth, Logi Bolt USB receiver",
+      "Battery": "Up to 24 months"
+    },
+    "description": "A softly contoured vertical mouse that supports a more natural hand position for smaller and medium hands. Quiet clicks and multi-device pairing suit focused desk work."
+  },
+  {
+    "id": "PROD-017",
+    "image_path": "frontend/assets/products/PROD-017.svg",
+    "name": "Kensington Expert Wireless Trackball",
+    "category": "Mice & Ergonomics",
+    "price_usd": 119.99,
+    "stock_count": 10,
+    "warranty_months": 36,
+    "specs": {
+      "Trackball": "55 mm precision ball",
+      "Buttons": "Four programmable buttons",
+      "Scroll": "Detachable scroll ring",
+      "Connectivity": "Bluetooth, 2.4 GHz USB receiver"
+    },
+    "description": "Navigate a desktop precisely while keeping your hand comfortably in one place. A large ball and detachable scroll ring make the trackball easy to tailor to your setup."
+  },
+  {
+    "id": "PROD-018",
+    "image_path": "frontend/assets/products/PROD-018.svg",
+    "name": "Dell UltraSharp U2724DE 27-inch Monitor",
+    "category": "Monitors & Lighting",
+    "price_usd": 529.99,
+    "stock_count": 4,
+    "warranty_months": 36,
+    "specs": {
+      "Display": "27-inch IPS Black, 2560 × 1440",
+      "Refresh Rate": "120 Hz",
+      "Connectivity": "Thunderbolt 4 hub, HDMI, DisplayPort",
+      "Color": "98% DCI-P3"
+    },
+    "description": "A sharp 27-inch QHD display with a high refresh rate for detailed work and smooth everyday motion. Its integrated Thunderbolt hub helps simplify a modern desk connection."
+  }
+]
