@@ -1,7 +1,5 @@
 # DevGear Studio — RAG Storefront & Evaluation Harness
 
-**A portfolio project by [Kishan Gollamudi](https://github.com/KishanGollamudi)** · [Repository](https://github.com/KishanGollamudi/eval_harness)
-
 An end-to-end Forward-Deployed Engineer build: a warm editorial hardware storefront, a grounded product-and-policy assistant, a resilient FastAPI + ChromaDB RAG service, and a 50-case black-box evaluation harness.
 
 ## Product tour
